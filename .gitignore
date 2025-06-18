@@ -1,0 +1,11 @@
+/node_modules/
+/demo/
+/.vscode/
+.DS_Store
+/**/*/.DS_Store
+yarn.lock
+package-lock.json
+yarn-error.log
+/example/
+/lib/
+/mochawesome-report/
