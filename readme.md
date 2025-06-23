@@ -1,26 +1,19 @@
-# kyle-common
+# kyleleung-common 常用 JS 方法库
 
-### 简介
+## 简介
 
-此项目用于收集 Web 项目中常用到的方法和算法
-当前已创建 Common 类已有常用数据类型判断
+`kyleleung-common`,一个轻量级 JavaScript 工具库，专注于收集 Web 项目中常用的方法和算法实现。帮忙自己提高开发效率，减少重复编码工作。
 
-=======
+## 核心功能
 
-# kyle-common 常用 JS 方法，算法
+### 数据类型判断
 
-####版本更新： # v0.1.1
-_ 修复 getValue 不能读取 global 对象上的属性 # v0.1.0
-_ 修复 getValue 不能从数组中读取值的问题 # v0.0.9
-_ 增加 defineReadonlyProperty 方法用于定义只读属性 # v0.0.8
-_ 修复动画执行数据转换成 dom style 错误导致不生效问题 # v0.0.7
-_ 新增动画缓动函数 # v0.0.6
-_ 新增 Canvas 相关函数 # v0.0.5
-_ 新增 StaticCommon 类，将 Common 方法定义为静态方法 # v0.0.4
-_ 移除不用的依赖
-_ 更新 Readme.md 内容 # v0.0.1
-_ 创建项目 # v3.0.0
-_ 重构全局静态方法模块
-_ 新增排序算法模块，选择排序算法,冒泡排序算法
-_ 新增常用模块装饰器，模块初始化装饰器 # v3.1.0
-_ 新增配置数据验证模块
+- `isString(value)` - 检查是否为字符串
+- `isNumber(value)` - 检查是否为数字
+- `isBoolean(value)` - 检查是否为布尔值
+- `isArray(value)` - 检查是否为数组
+- `isObject(value)` - 检查是否为对象
+- `isFunction(value)` - 检查是否为函数
+- `isNull(value)` - 检查是否为 null
+- `isUndefined(value)` - 检查是否为 undefined
+- `isEmpty(value)` - 检查值是否为空（支持字符串/数组/对象）

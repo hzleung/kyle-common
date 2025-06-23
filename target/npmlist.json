@@ -1,6 +1,6 @@
 {
   "version": "3.2.4",
-  "name": "kyle-common",
+  "name": "kyleleung-common",
   "dependencies": {
     "@types/core-js": {
       "version": "2.5.2"
