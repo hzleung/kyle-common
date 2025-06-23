@@ -15,7 +15,7 @@
         "javascript",
         "typescript"
     ],
-    "author": "kyle s j mo",
+    "author": "kyle H Z Liang",
     "license": "ISC",
     "devDependencies": {
         "@abraham/reflection": "^0.4.2",
